@@ -1,12 +1,6 @@
 import Navbar from "./scenes/navbar/index.js";
 import { useState } from "react";
-
-enum SelectedPage {
-  Home = "home",
-  Benefits = "benefits",
-  OurClasses = "ourclasses",
-  ContactUs = "contactus"
-}
+import { SelectedPage } from "@/shared/types.js";
 
 function App() {
   const [selectedPage, setSelectedPage] = useState<SelectedPage>(SelectedPage.Home);
