@@ -48,8 +48,13 @@ const Benefits = ({setSelectedPage}: BenefitsProps) => {
 
         {/* BENEFITS */}
         <div className="mt-5 items-center justify-between gap-8 md:flex">
-          {benefits.map((benefit) => (
-            <Benefit />
+          {benefits.map((benefit: BenefitType) => (
+            <Benefit
+              key={benefit.title}
+              icon={benefit.icon}
+              title={benefit.title}
+              description={benefit.description}
+            />
           ))}
         </div>
       </motion.div>
