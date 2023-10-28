@@ -1,4 +1,4 @@
-import { SelectedPage } from "@/shared/types.js";
+import { BenefitType, SelectedPage } from "@/shared/types.js";
 import HText from "@/shared/HText.js";
 import { 
   HomeModernIcon, 
