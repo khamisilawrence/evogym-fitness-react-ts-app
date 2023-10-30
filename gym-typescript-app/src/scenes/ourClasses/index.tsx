@@ -1,4 +1,4 @@
-import { SelectedPage } from '@/shared/types.js';
+import { SelectedPage, ClassType } from '@/shared/types.js';
 import image1 from "@/assets/image1.png";
 import image2 from "@/assets/image2.png";
 import image3 from "@/assets/image3.png";
@@ -7,12 +7,37 @@ import image5 from "@/assets/image5.png";
 import image6 from "@/assets/image6.png";
 import { motion } from 'framer-motion';
 import HText from '@/shared/HText.js';
+import Class from './Class.js';
 
-const classes = [
+const classes: Array<ClassType> = [
   {
     name: "Weight Training Classes",
-    description: ""
-  }
+    description: "Ipsum a arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque.",
+    image: image1,
+  },
+  {
+    name: "Yoga Classes",
+    image: image2,
+  },
+  {
+    name: "Ab Core Classes",
+    description: "Ipsum a arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque.",
+    image: image3,
+  },
+  {
+    name: "Adventure Classes",
+    description: "Ipsum a arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque.",
+    image: image4,
+  },
+  {
+    name: "Fitness Classes",
+    image: image5,
+  },
+  {
+    name: "Training Classes",
+    description: "Ipsum a arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque.",
+    image: image6,
+  },
 ]
 
 type Props = {
@@ -45,8 +70,13 @@ const OurClasses = ({setSelectedPage}: Props) => {
         </motion.div>
         <div className='mt-10 h-[353px] w-full overflow-x-auto overflow-y-hidden'>
           <ul className='w-[2800px] whitespace-nowrap'>
-            {OurClasses.map((item, index) => (
-              <Class />
+            {OurClasses.map((item: ClassType, index) => (
+              <Class
+                key={`${item.name}-${index}`}
+                name={item.name}
+                description={item.description}
+                image={item.image}
+              />
             ))}
           </ul>
         </div>
