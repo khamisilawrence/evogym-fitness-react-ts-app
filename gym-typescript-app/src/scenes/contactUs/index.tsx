@@ -3,7 +3,6 @@ import { SelectedPage } from "@/shared/types.js";
 import { motion } from "framer-motion";
 import ContactUsPageGraphic from "@/assets/ContactUsPageGraphic.png";
 import HText from "@/shared/HText.js";
-import { triggerAsyncId } from "async_hooks";
 
 type Props = {
   setSelectedPage: (value: SelectedPage) => void;
@@ -11,7 +10,7 @@ type Props = {
 
 const ContactUs = ({setSelectedPage}: Props) => {
 
-  const inputStyles = `w-full rounded-lg bg-primary-300 px-5 py-3 placeholder-white`;
+  const inputStyles = `mt-5 w-full rounded-lg bg-primary-300 px-5 py-3 placeholder-white`;
 
   const {
     register,
@@ -45,7 +44,7 @@ const ContactUs = ({setSelectedPage}: Props) => {
         >
           <HText>
             <span className="text-primary-500">
-              JOIN NOW
+              JOIN NOW&nbsp;
             </span>
             TO GET IN SHAPE
           </HText>
@@ -70,7 +69,7 @@ const ContactUs = ({setSelectedPage}: Props) => {
             <form
               target="_blank"
               onSubmit={onSubmit}
-              action="https://formsubmit.co/khamisilawrencejm.com"
+              action="https://formsubmit.co/2d48fd291cc1c957bec2d5783f7b0198"
               method="POST"
             >
               <input
@@ -88,7 +87,7 @@ const ContactUs = ({setSelectedPage}: Props) => {
                   {errors.name.type === "maxLength" && "Max length is 100 characters."}
                 </p>
               )}
-              .
+              
               <input
                 className={inputStyles}
                 type="text"
@@ -104,10 +103,11 @@ const ContactUs = ({setSelectedPage}: Props) => {
                   {errors.email.type === "pattern" && "Invalid email address."}
                 </p>
               )}
-              .
-              <input
+              
+              <textarea
                 className={inputStyles}
-                type="text"
+                rows={4}
+                cols={50}
                 placeholder="MESSAGE"
                 {...register("message", {
                   required: true,
@@ -120,6 +120,13 @@ const ContactUs = ({setSelectedPage}: Props) => {
                   {errors.message.type === "maxLength" && "Max length is 2000 characters."}
                 </p>
               )}
+
+              <button
+                type="submit"
+                className="mt-5 rounded-lg bg-secondary-500 px-20 py-3 transition duration-500 hover:text-white"
+              >
+                SUBMIT
+              </button>
             </form>
           </motion.div>
         </div>
