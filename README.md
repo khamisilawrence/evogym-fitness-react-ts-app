@@ -18,7 +18,7 @@ Open [http://localhost:5173](http://localhost:5173) to view the app in your brow
 
 ## Screenshot
 
-![Screenshot of app default state](src/assets/screenshot.png)
+![Screenshot of app default state](gym-typescript-app/src/assets/screenshots/screenshot.png)
 
 
 ## Technologies
