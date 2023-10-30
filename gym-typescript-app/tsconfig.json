@@ -13,7 +13,7 @@
       "DOM",
       "DOM.Iterable"
     ],
-    "module": "ESNext",
+    "module": "Node16",
     "skipLibCheck": true,
     /* Bundler mode */
     "moduleResolution": "Node16",
