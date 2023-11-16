@@ -14,7 +14,7 @@ This is a single-page UI mockup of a gym website.
 
 <br />
 
-## Technologies
+## Technology Stack
 - [Typescript](https://www.typescriptlang.org/) <img align="center" alt="TypeScript" width="20px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
 - [React](https://react.dev) <img align="center" alt="React" width="20px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
 - [Tailwind CSS](https://tailwindcss.com/) <img align="center" alt="Tailwind" width="20px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" />
