@@ -20,9 +20,9 @@ This is a single-page UI mockup of a gym website.
 - [Tailwind CSS](https://tailwindcss.com/) <img align="center" alt="Tailwind" width="20px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" />
 - [Heroicons](https://heroicons.com/) <img align="center" alt="heroicons" width="100px" height="20px" src="https://svgshare.com/i/zjW.svg" />
 - [FormSubmit](https://formsubmit.co/) <img align="center" alt="FormSubmit" width="100px" height="20px" src="https://formsubmit.co/image/logo.png" />
-- [`prettier-plugin-tailwindcss`](https://github.com/tailwindlabs/prettier-plugin-tailwindcss) <img align="center" alt="npm" width="20px" src="https://svgshare.com/i/zkY.svg" />
-- [`react-anchor-smooth-scroll`](https://github.com/mauricevancooten/react-anchor-link-smooth-scroll) <img align="center" alt="npm" width="20px" src="https://svgshare.com/i/zkY.svg" />
-- [`framer-motion`](https://www.framer.com/motion/introduction/) <img align="center" alt="framer motion" width="20px" src="https://camo.githubusercontent.com/179d66ab2b0321726c88a586c4ad38802e7113a3c98c6fd3f0156c01c98cfd14/68747470733a2f2f6672616d657275736572636f6e74656e742e636f6d2f696d616765732f34386861395a52396f5a51475136675a38595566456c50335430412e706e67" />
+- [Framer Motion](https://www.framer.com/motion/introduction/) <img align="center" alt="framer motion" width="20px" src="https://camo.githubusercontent.com/179d66ab2b0321726c88a586c4ad38802e7113a3c98c6fd3f0156c01c98cfd14/68747470733a2f2f6672616d657275736572636f6e74656e742e636f6d2f696d616765732f34386861395a52396f5a51475136675a38595566456c50335430412e706e67" />
+- [`prettier-plugin-tailwindcss`](https://github.com/tailwindlabs/prettier-plugin-tailwindcss) <img align="center" alt="npm" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" />
+- [`react-anchor-smooth-scroll`](https://github.com/mauricevancooten/react-anchor-link-smooth-scroll) <img align="center" alt="npm" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" />
 
 <br />
 
